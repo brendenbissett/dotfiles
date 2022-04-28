@@ -26,3 +26,6 @@ fi
 
 unset rc
 . "$HOME/.cargo/env"
+
+# Set default applications
+export EDITOR='nvim'
