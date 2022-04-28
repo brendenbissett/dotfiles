@@ -1,28 +1,26 @@
-local set = vim.opt
-
-set.exrc = true
-set.guicursor = 'a:block'
-set.number = true
-set.relativenumber = true
-set.autoindent = true
-set.tabstop = 4
-set.shiftwidth = 4
-set.softtabstop = 4
-set.smarttab = true
-set.hlsearch = false
-set.hidden = true
-set.errorbells = false
-set.wrap = false
-set.swapfile = false
-set.backup = false
-set.undodir = '~/.vim/undodir'
-set.undofile = true
-set.incsearch = true
-set.scrolloff = 8
-set.colorcolumn = '80'
-set.signcolumn = 'auto'
-set.termguicolors = true
+vim.opt.exrc = true
+vim.opt.guicursor = 'a:block'
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.autoindent = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.smarttab = true
+vim.opt.hlsearch = false
+vim.opt.hidden = true
+vim.opt.errorbells = false
+vim.opt.wrap = false
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = '~/.vim/undodir'
+vim.opt.undofile = true
+vim.opt.incsearch = true
+vim.opt.scrolloff = 8
+vim.opt.colorcolumn = '80'
+vim.opt.signcolumn = 'auto'
+vim.opt.termguicolors = true
 
 -- Give more space for displaying messages.
-set.cmdheight = 2
+vim.opt.cmdheight = 2
 
