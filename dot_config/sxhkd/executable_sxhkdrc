@@ -49,7 +49,7 @@ super + g
 	bspc node -s biggest.window
 
 super + e
-	kitty @ lf
+	thunar
 
 # state/flags
 #
