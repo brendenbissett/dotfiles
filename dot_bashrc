@@ -29,3 +29,8 @@ unset rc
 
 # Set default applications
 export EDITOR='nvim'
+export TERMINAL='kitty'
+export BROWSER='firefox'
+export COLORTERM='truecolor'
+export OPENER='xdg-open'
+export WM='bspwm'
