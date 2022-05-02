@@ -14,3 +14,7 @@ vim.api.nvim_set_keymap('n', '<leader>fh', ':Telescope help_tags<CR>', opts)
 
 -- # Toggleterm
 vim.api.nvim_set_keymap('n', '<leader><Bslash>', ':ToggleTerm direction=float<CR>', opts)
+
+
+-- # Quality Of Life For Me
+vim.api.nvim_set_keymap('c', 'Q', 'q', {noremap = true})  -- Keep hitting 'Q' because I don't release <shift> fast enough.
