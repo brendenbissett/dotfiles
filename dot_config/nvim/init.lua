@@ -1,11 +1,14 @@
 require('settings')
 require('plugins')
-require('colorschemes-config.nord')
-require('nvim-tree-config')
-require('lua-line-config')
-require('telescope-config')
-require('nvim-treesitter-config')
-require('nvim-lsp-installer-config')
+
+require('config/colorschemes/nord')
+require('config/nvim-tree')
+require('config/lua-line')
+require('config/telescope')
+require('config/nvim-treesitter')
+require('config/nvim-lsp-installer')
+require('config/toggleterm')
+
 require('mappings')
 
 
