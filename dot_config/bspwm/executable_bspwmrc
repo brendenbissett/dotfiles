@@ -5,6 +5,7 @@ sxhkd &
 $HOME/.config/bspwm/scripts/configure_screens.sh &
 $HOME/.config/polybar/launch.sh &
 picom --experimental-backends --backend glx &
+/usr/bin/emacs --daemon &
 
 # Monitors
 bspc monitor DisplayPort-0 -d 1 2 3 4 5

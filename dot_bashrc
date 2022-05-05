@@ -34,3 +34,6 @@ export BROWSER='firefox'
 export COLORTERM='truecolor'
 export OPENER='xdg-open'
 export WM='bspwm'
+
+# Aliases
+alias emacs="emacsclient -c -a 'emacs'" # Will start up emacs client, connecting to daemon.
